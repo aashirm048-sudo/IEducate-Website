@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    h1{
+        text-decoration: underline;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+        text-decoration: underline;
+    }
+    .box{
+        float: right;
+        position: relative;
+        top: -300px;
+        border: 2px solid black;
+    }
+    @media only screen and (max-width:855px){
+        .box{
+            position: relative;
+            top: 20px;
+            right: 90px;
+        }
+    }
+     @media only screen and (max-width:455px){
+            .box{
+            justify-content: center;
+            align-items: center;
+        }
+        .parent{
+            display: flex;
+        }
+         img{
+           justify-content: center;
+            align-items: center;
+            flex-direction: column;
+         }      
+     }
+   </style>
+</head>
+<body>
+   <center> <h1>My Skills:-</h1></center>
+  <div class="parent">
+     <img height="200px" src="html-logo.png" alt="">
+   <img height="200px" src="CSS-Logo-2048x1280.png" alt="">
+   <img height="200px" src="javascript-logo-javascript-icon-transparent-free-png.webp" alt="">
+   <img height="200px" src="Bootstrap logo.jpg" alt="">
+  </div>
+   <p>I am a passionate and dedicated web development student with strong foundational knowledge of <br> HTML, CSS, <br> and JavaScript. <br> I have experience building responsive and user-friendly websites, focusing on clean design <br> and structured code.  <br>I am comfortable working with basic DOM manipulation and continuously improving my problem- <br>solving skills. <br> Along with technical abilities, I value teamwork, effective communication, and time management. <br> I am always eager to learn new technologies and enhance my skills to grow as a professional developer.</p>
+   <div class="box"><img height="300px" src="Aashir.png" alt=""></div>
+</body>
+</html>
